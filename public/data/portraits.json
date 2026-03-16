@@ -1,0 +1,58 @@
+[
+  {
+    "id": 1,
+    "title": "Morning Light",
+    "description": "A serene portrait capturing the soft golden hues of early morning light.",
+    "filename": "portrait-1.jpg",
+    "featured": true
+  },
+  {
+    "id": 2,
+    "title": "The Elder",
+    "description": "A timeless study of character and wisdom etched into every line.",
+    "filename": "portrait-2.jpg",
+    "featured": true
+  },
+  {
+    "id": 3,
+    "title": "City Soul",
+    "description": "Urban energy meets quiet introspection in this striking composition.",
+    "filename": "portrait-3.jpg",
+    "featured": false
+  },
+  {
+    "id": 4,
+    "title": "Garden Reverie",
+    "description": "A contemplative moment among summer blooms and dappled shade.",
+    "filename": "portrait-4.jpg",
+    "featured": false
+  },
+  {
+    "id": 5,
+    "title": "Ember Glow",
+    "description": "Warm firelight illuminates an expression full of quiet strength.",
+    "filename": "portrait-5.jpg",
+    "featured": true
+  },
+  {
+    "id": 6,
+    "title": "Into the Distance",
+    "description": "A gaze that speaks of journeys taken and roads still ahead.",
+    "filename": "portrait-6.jpg",
+    "featured": false
+  },
+  {
+    "id": 7,
+    "title": "Soft Shadows",
+    "description": "Delicate interplay of light and shadow reveals depth of character.",
+    "filename": "portrait-7.jpg",
+    "featured": false
+  },
+  {
+    "id": 8,
+    "title": "The Storyteller",
+    "description": "A lifetime of stories written across a face full of joy.",
+    "filename": "portrait-8.jpg",
+    "featured": false
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "id": 1,
+    "name": "Siobhán Ní Fhaoláin",
+    "location": "Dublin, Ireland",
+    "quote": "Marko captured my mother's portrait with such sensitivity and skill. It is now the most treasured possession in our home. We are so grateful for his extraordinary talent and gentle manner.",
+    "type": "testimonial"
+  },
+  {
+    "id": 2,
+    "name": "Declan & Máire O'Brien",
+    "location": "Cork, Ireland",
+    "quote": "We commissioned a family portrait as an anniversary gift to ourselves and it exceeded every expectation. Marko's ability to bring out the natural warmth of every person he paints is truly remarkable.",
+    "type": "testimonial"
+  },
+  {
+    "id": 3,
+    "name": "Ciarán Ó'Súilleabháin",
+    "location": "Galway, Ireland",
+    "quote": "I have admired Marko's work for many years and finally commissioned a portrait of my father. The likeness is astonishing, but more than that, he captured something deeply true about who my father is.",
+    "type": "thank-you-letter"
+  },
+  {
+    "id": 4,
+    "name": "Eleanor Browne",
+    "location": "Limerick, Ireland",
+    "quote": "A gift of great beauty and great meaning. Marko painted my grandmother at 87 years old and she wept when she first saw it — happy tears. He is a very special artist.",
+    "type": "testimonial"
+  },
+  {
+    "id": 5,
+    "name": "Patrick & Aoife Walsh",
+    "location": "Waterford, Ireland",
+    "quote": "From the first consultation to the final unveiling, the experience was wonderful. Marko listened carefully to what we hoped for and delivered something far beyond what we imagined.",
+    "type": "thank-you-letter"
+  },
+  {
+    "id": 6,
+    "name": "Nuala Breathnach",
+    "location": "Kilkenny, Ireland",
+    "quote": "There are no words adequate to thank Marko for the portrait of my late husband. He worked from photographs and captured him exactly as we knew him. This painting is our family's greatest treasure.",
+    "type": "thank-you-letter"
+  }
+]
