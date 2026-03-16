@@ -1,0 +1,31 @@
+.navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+.navigation ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.navigation li {
+    padding: 10px;
+    text-align: center;
+}
+
+.navigation a {
+    text-decoration: none;
+    color: #333;
+}
+
+@media (max-width: 768px) {
+    .navigation {
+        flex-direction: column;
+    }
+}
+
+@media (min-width: 769px) {
+    .navigation {
+        flex-direction: row;
+    }
+}
