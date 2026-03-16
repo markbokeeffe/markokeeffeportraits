@@ -1,0 +1,34 @@
+[
+  {
+    "id": 1,
+    "title": "Gallery Opening 2023",
+    "description": "A proud moment presenting original works at the Dublin Gallery of Fine Art.",
+    "filename": "presentation-1.jpg",
+    "date": "2023-11-15",
+    "venue": "Dublin Gallery of Fine Art"
+  },
+  {
+    "id": 2,
+    "title": "Portrait Unveiling — The Murphy Family",
+    "description": "The joy on faces when a family portrait is revealed for the first time.",
+    "filename": "presentation-2.jpg",
+    "date": "2024-02-20",
+    "venue": "Private Residence, Cork"
+  },
+  {
+    "id": 3,
+    "title": "Community Exhibition",
+    "description": "Displaying local portraits at the annual Kilkenny Arts Festival.",
+    "filename": "presentation-3.jpg",
+    "date": "2024-08-05",
+    "venue": "Kilkenny Castle, Kilkenny"
+  },
+  {
+    "id": 4,
+    "title": "Studio Open Day",
+    "description": "Welcoming visitors into the creative process during our annual studio open day.",
+    "filename": "presentation-4.jpg",
+    "date": "2024-09-30",
+    "venue": "Marko Keeffe Studio, Dublin"
+  }
+]
