@@ -1,4 +1,5 @@
 import Image from "next/image";
+import './Recognition.css';
 
 const items = [
   {
