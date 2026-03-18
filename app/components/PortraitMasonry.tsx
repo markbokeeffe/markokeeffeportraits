@@ -1,4 +1,5 @@
 import Image from "next/image";
+import './PortraitMasonry.css'; 
 
 const portraits = [
   {
