@@ -1,17 +1,30 @@
-# Welcome to My Portfolio
+import Header from "./components/Header";
+import Hero from "./components/Hero";
+import PortraitMasonry from "./components/PortraitMasonry";
+import Recognition from "./components/Recognition";
+import AboutSection from "./components/AboutSection";
+import Commissions from "./components/Commissions";
+import ContactSection from "./components/ContactSection";
 
-## Parallax Hero Section
+export default function Page() {
+  return (
+    <>
+      <Header />
 
-Experience the beauty and artistry of photography with my stunning parallax hero section.
+      <main>
+        <Hero />
+        <PortraitMasonry />
+        <Recognition />
+        <AboutSection />
+        <Commissions />
+        <ContactSection />
+      </main>
 
-## Featured Portraits
-
-Discover a selection of my best portrait photography, capturing the essence and personality of my subjects.
-
-## Testimonials
-
-Hear from my clients about their experiences and the moments we've captured together.
-
-## Call to Action
-
-Ready to book a session? [Contact me today!](#)
+      <footer className="site-footer">
+        <div className="container">
+          © Mark O&apos;Keeffe Portraits · Graphite portraiture · Ireland
+        </div>
+      </footer>
+    </>
+  );
+}
