@@ -3,6 +3,12 @@
   background: #f9f9f9;
 }
 
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
 .recognition-header {
   margin-bottom: 60px;
   max-width: 800px;
@@ -34,18 +40,20 @@
   margin: 0;
 }
 
+/* Two Column Layout */
 .recognition-content {
   display: grid;
   grid-template-columns: 1fr 1.2fr;
   gap: 60px;
-  align-items: start;
+  align-items: flex-start;
 }
 
-/* Testimonials Column */
+/* ===== TESTIMONIALS COLUMN ===== */
 .recognition-testimonials {
   display: flex;
   flex-direction: column;
   gap: 50px;
+  padding-top: 0;
 }
 
 .testimonial-block {
@@ -72,11 +80,10 @@
   margin: 0;
 }
 
-/* Images Gallery */
+/* ===== IMAGES GALLERY COLUMN - MASONRY ===== */
 .recognition-gallery {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  gap: 20px;
+  column-count: 2;
+  column-gap: 20px;
 }
 
 .recognition-image-item {
@@ -84,6 +91,8 @@
   border-radius: 4px;
   box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin-bottom: 20px;
+  break-inside: avoid;
 }
 
 .recognition-image-item:hover {
@@ -98,7 +107,7 @@
   object-fit: cover;
 }
 
-/* Responsive Design */
+/* ===== RESPONSIVE DESIGN ===== */
 @media (max-width: 1024px) {
   .recognition-content {
     grid-template-columns: 1fr;
@@ -110,7 +119,7 @@
   }
 
   .recognition-gallery {
-    grid-template-columns: 1fr 1fr;
+    column-count: 2;
   }
 }
 
@@ -146,7 +155,8 @@
   }
 
   .recognition-gallery {
-    gap: 16px;
+    column-count: 1;
+    column-gap: 0;
   }
 }
 
@@ -168,6 +178,6 @@
   }
 
   .recognition-gallery {
-    grid-template-columns: 1fr;
+    column-count: 1;
   }
 }
