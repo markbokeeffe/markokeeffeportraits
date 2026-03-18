@@ -1,7 +1,7 @@
 /* ===== DESKTOP GALLERY ===== */
 .portrait-masonry-desktop {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  grid-template-columns: repeat(4, 1fr);
   gap: 40px;
   margin-top: 60px;
   padding: 0 20px;
@@ -150,16 +150,16 @@
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 1024px) {
+@media (max-width: 1200px) {
   .portrait-masonry-desktop {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
     gap: 30px;
   }
 }
 
 @media (max-width: 768px) {
   .portrait-masonry-desktop {
-    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
     gap: 24px;
     padding: 0 10px;
   }

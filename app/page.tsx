@@ -3,6 +3,7 @@ import Hero from "./components/Hero";
 import PortraitMasonry from "./components/PortraitMasonry";
 import Recognition from "./components/Recognition";
 import Testimonial from "./components/Testimonial";
+import ArtistStatement from "./components/ArtistStatement";
 import AboutSection from "./components/AboutSection";
 import Commissions from "./components/Commissions";
 import ContactSection from "./components/ContactSection";
@@ -21,7 +22,7 @@ export default function Page() {
           author="MICHAEL D. HIGGINS"
         />
         <Recognition />
-        
+        <ArtistStatement />
   
         
         {/* <AboutSection />
