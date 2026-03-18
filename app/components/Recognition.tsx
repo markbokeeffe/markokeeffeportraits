@@ -22,6 +22,11 @@ const items = [
     alt: "Presentation with Jesse Jackson",
     text: "Graphite work as presentation and tribute.",
   },
+  {
+    src: "/presentation_parle.jpg",
+    alt: "Presentation with Luan Parle",
+    text: "Portraits shared with internationally recognised figures.",
+  }
 ];
 
 export default function Recognition() {
