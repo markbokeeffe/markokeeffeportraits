@@ -1,60 +1,77 @@
 import Image from "next/image";
 import './Recognition.css';
 
-const items = [
+const recognitionImages = [
   {
     src: "/presentation_higgins.jpg",
     alt: "Presentation with President Higgins",
-    text: "Presentation in a formal civic setting.",
   },
   {
     src: "/presentation_smiley_stage.jpg",
     alt: "Stage presentation",
-    text: "Portrait presentation in a live public context.",
   },
   {
     src: "/presentation_tutu.jpg",
     alt: "Presentation with Desmond Tutu",
-    text: "Portraits shared with internationally recognised figures.",
   },
   {
     src: "/presentation_jackson.jpg",
     alt: "Presentation with Jesse Jackson",
-    text: "Graphite work as presentation and tribute.",
+  },
+];
+
+const testimonials = [
+  {
+    quote: "A remarkable talent who's given a new dimension to the art of portraiture.",
+    author: "BILL CLINTON",
   },
   {
-    src: "/presentation_parle.jpg",
-    alt: "Presentation with Luan Parle",
-    text: "Portraits shared with internationally recognised figures.",
-  }
+    quote: "Absolutely wonderful. You've deeply captured his essence.",
+    author: "DESMOND TUTU",
+  },
 ];
 
 export default function Recognition() {
   return (
-    <section id="recognition" className="section section-olive">
+    <section id="recognition" className="recognition-section">
       <div className="container">
-        <div className="eyebrow">Recognition</div>
-        <h2 className="section-title">
-          Portraits presented in civic, cultural and public contexts.
-        </h2>
-        <p className="section-intro">
-          Alongside studio practice, O&apos;Keeffe&apos;s portraits have been
-          presented to notable public figures and shown in formal settings,
-          giving the work a commemorative and ceremonial dimension.
-        </p>
+        <div className="recognition-header">
+          <h2>Recognition</h2>
+          <p className="recognition-subtitle">
+            Portraits presented in civic, cultural and <strong>public contexts.</strong>
+          </p>
+          <p className="recognition-description">
+            Alongside studio practice, O&apos;Keeffe&apos;s portraits have been
+            presented to notable public figures and shown in formal settings, giving
+            the work a commemorative and ceremonial dimension.
+          </p>
+        </div>
 
-        <div className="recognition-masonry">
-          {items.map((item) => (
-            <div key={item.src} className="recognition-item">
-              <Image
-                src={item.src}
-                alt={item.alt}
-                width={700}
-                height={780}
-                className="recognition-image"
-              />
-            </div>
-          ))}
+        <div className="recognition-content">
+          {/* Left Column - Testimonials */}
+          <div className="recognition-testimonials">
+            {testimonials.map((testimonial, index) => (
+              <blockquote key={index} className="testimonial-block">
+                <p className="testimonial-text">{testimonial.quote}</p>
+                <footer className="testimonial-author">— {testimonial.author}</footer>
+              </blockquote>
+            ))}
+          </div>
+
+          {/* Right Column - Images */}
+          <div className="recognition-gallery">
+            {recognitionImages.map((image) => (
+              <div key={image.src} className="recognition-image-item">
+                <Image
+                  src={image.src}
+                  alt={image.alt}
+                  width={600}
+                  height={400}
+                  className="recognition-image"
+                />
+              </div>
+            ))}
+          </div>
         </div>
       </div>
     </section>

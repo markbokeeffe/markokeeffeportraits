@@ -4,14 +4,14 @@ export default function AboutSection() {
   return (
     <section id="about" className="section section-dark">
       <div className="container story-grid">
-        <div className="story-image">
+        {/* <div className="story-image">
           <Image
             src="/presentation_parle.jpg"
             alt="Mark O'Keeffe in the studio"
             width={900}
             height={1100}
           />
-        </div>
+        </div> */}
 
         <div className="story-panel">
           <div className="eyebrow">About Mark O&apos;Keeffe</div>

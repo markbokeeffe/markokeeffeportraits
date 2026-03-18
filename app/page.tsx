@@ -24,9 +24,9 @@ export default function Page() {
         
   
         
-        <AboutSection />
+        {/* <AboutSection />
         <Commissions />
-        <ContactSection />
+        <ContactSection /> */}
       </main>
 
       <footer className="site-footer">
