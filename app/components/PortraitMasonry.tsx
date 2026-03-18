@@ -60,18 +60,18 @@ const portraits = [
 
 export default function PortraitMasonry() {
   return (
-    <section className="section section-light" id="portraits">
+    <section className="section section-light w-full flex justify-center" id="portraits">
       <div className="container">
-        <div className="eyebrow eyebrow-dark">Portrait collection</div>
+        {/* <div className="eyebrow eyebrow-dark">Portrait collection</div>
         <h2 className="section-title dark">
           Individual works presented as a gallery wall.
         </h2>
         <p className="section-intro dark-muted">
           Each portrait is shown as an individual framed work, allowing the
           collection to breathe more like an exhibition than a single montage.
-        </p>
+        </p> */}
 
-        <div className="portrait-masonry">
+        <div className="portrait-masonry section-light">
           {portraits.map((portrait) => (
             <article className="portrait-masonry-item" key={portrait.src}>
               <div className="portrait-frame">

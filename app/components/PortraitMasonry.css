@@ -77,3 +77,8 @@
     gap: 20px;
   }
 }
+
+.section-light {
+  background: #ffffff;
+  background-image: linear-gradient(to bottom, #ffffff, #f7f7f7);
+}
