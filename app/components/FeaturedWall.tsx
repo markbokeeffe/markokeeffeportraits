@@ -27,7 +27,7 @@ export default function FeaturedWall() {
 
         <div className="stats-grid">
           <div className="stat-card">
-            <strong>Graphite realism</strong>
+            <strong>Pencil realism</strong>
             <p>
               Traditional draftsmanship with tonal layering and a strong sense
               of form.

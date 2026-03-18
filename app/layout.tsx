@@ -3,7 +3,7 @@ import type { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Mark O'Keeffe Portraits",
-  description: "Graphite portraiture by Mark O'Keeffe.",
+  description: "Pencil portraiture by Mark O'Keeffe.",
 };
 
 export default function RootLayout({

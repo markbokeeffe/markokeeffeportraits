@@ -1,6 +1,25 @@
 import Image from "next/image";
 import './Recognition.css';
 
+const letterImages = [
+//   {
+//     src: "/letter_deValera.jpeg",
+//     alt: "Letter from de Valera",
+//   },
+  {
+    src: "/letter_giscard.jpeg",
+    alt: "Letter from Giscard",
+  },
+  {
+    src: "/letter_jimmyCarter.jpeg",
+    alt: "Letter from Jimmy Carter",
+  },
+  {
+    src: "/letter_johnMajor.jpeg",
+    alt: "Letter from John Major",
+  },
+];
+
 const recognitionImages = [
   {
     src: "/presentation_higgins.jpg",
@@ -48,14 +67,32 @@ export default function Recognition() {
         </div>
 
         <div className="recognition-content">
-          {/* Left Column - Testimonials */}
-          <div className="recognition-testimonials">
-            {testimonials.map((testimonial, index) => (
-              <blockquote key={index} className="testimonial-block">
-                <p className="testimonial-text">{testimonial.quote}</p>
-                <footer className="testimonial-author">— {testimonial.author}</footer>
-              </blockquote>
-            ))}
+          {/* Left Column - Letters Grid + Testimonials */}
+          <div className="recognition-left-column">
+            {/* Letters Masonry Grid */}
+            <div className="letters-masonry">
+              {letterImages.map((image) => (
+                <div key={image.src} className="letter-item">
+                  <Image
+                    src={image.src}
+                    alt={image.alt}
+                    width={300}
+                    height={400}
+                    className="letter-image"
+                  />
+                </div>
+              ))}
+            </div>
+
+            {/* Testimonials */}
+            <div className="recognition-testimonials">
+              {testimonials.map((testimonial, index) => (
+                <blockquote key={index} className="testimonial-block">
+                  <p className="testimonial-text">{testimonial.quote}</p>
+                  <footer className="testimonial-author">— {testimonial.author}</footer>
+                </blockquote>
+              ))}
+            </div>
           </div>
 
           {/* Right Column - Images */}

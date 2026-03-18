@@ -31,7 +31,7 @@ export default function Page() {
 
       <footer className="site-footer">
         <div className="container">
-          © Mark O&apos;Keeffe Portraits · Graphite portraiture · Ireland
+          © Mark O&apos;Keeffe Portraits · Pencil portraiture · Ireland
         </div>
       </footer>
     </>
