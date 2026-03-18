@@ -22,12 +22,6 @@ export default function ArtistStatement() {
             </a>
           </div>
         </div>
-
-        {/* Artist Info Below */}
-        <div className="artist-footer">
-          <p className="artist-copyright">© Mark O'Keeffe</p>
-          <p className="artist-title">Portrait Artist</p>
-        </div>
       </div>
     </section>
   );

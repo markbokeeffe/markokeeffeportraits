@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Footer from "./components/Footer";
 import PortraitMasonry from "./components/PortraitMasonry";
 import Recognition from "./components/Recognition";
 import Testimonial from "./components/Testimonial";
@@ -24,17 +25,12 @@ export default function Page() {
         <Recognition />
         <ArtistStatement />
   
-        
+        <Footer />
         {/* <AboutSection />
         <Commissions />
         <ContactSection /> */}
       </main>
 
-      <footer className="site-footer">
-        <div className="container">
-          © Mark O&apos;Keeffe Portraits · Pencil portraiture · Ireland
-        </div>
-      </footer>
     </>
   );
 }
