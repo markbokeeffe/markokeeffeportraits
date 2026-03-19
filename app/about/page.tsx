@@ -15,7 +15,7 @@ export default function AboutPage() {
             <div className="hero-content">
               <div className="hero-image">
                 <Image
-                  src="/about/mark_okeefe_portrait.jpg"
+                  src="/beckett-apollo.jpg"
                   alt="Mark O'Keeffe"
                   width={400}
                   height={500}
@@ -52,7 +52,7 @@ export default function AboutPage() {
                 <div className="about-images-grid">
                   <div className="about-image-item">
                     <Image
-                      src="/about/pope_presentation.jpg"
+                      src="/vicar_street.jpg"
                       alt="Pope Benedict XVI presentation"
                       width={300}
                       height={200}
@@ -61,7 +61,7 @@ export default function AboutPage() {
                   </div>
                   <div className="about-image-item">
                     <Image
-                      src="/about/presentation_two.jpg"
+                      src="/apollo.jpg"
                       alt="Presentation event"
                       width={300}
                       height={200}
@@ -78,7 +78,7 @@ export default function AboutPage() {
               <div className="about-sidebar">
                 <div className="sidebar-image-wrapper">
                   <Image
-                    src="/about/mark_with_portrait.jpg"
+                    src="/presentations/pope_benedict.jpg"
                     alt="Mark with portrait"
                     width={300}
                     height={400}
@@ -123,7 +123,7 @@ export default function AboutPage() {
               {/* Right Column - Image */}
               <div className="galleries-image">
                 <Image
-                  src="/about/mark_with_president.jpg"
+                  src="/presentations/michael_d_higgins_2025.jpg"
                   alt="Mark with President"
                   width={400}
                   height={300}
