@@ -70,8 +70,21 @@ export default function AboutPage() {
                   </div>
                 </div>
                 <p className="about-intro">Mark has participated in several exhibitions, including a solo one in Malahide Library in 2012. In 2013, he had the honour to be invited to Áras an Uachtaráin in Dublin, where he was privileged to present his work to the President of Ireland, Michael D. Higgins.</p>
-                <p className="about-intro">His work has appeared in journals and other publications as far away as the Netherlands and New Zealand. In 2013, he provided the illustrations for “The GAA & Radio Éireann: 1926 - 2010” by Pat Guthrie.</p>
+                <p className="about-intro">His work has appeared in journals and other publications as far away as the Netherlands and New Zealand. In 2013, he provided the illustrations for "The GAA & Radio Éireann: 1926 - 2010" by Pat Guthrie.</p>
                 <p className="about-intro">Mark's portraits have been featured in several other galleries and establishments in Dublin, including the Duke Street Gallery, Apollo Gallery, the Nora Dunne Gallery, Grogan's Pub and the View Gallery.</p>
+
+                {/* YouTube Video */}
+                <div className="video-container">
+                  <iframe
+                    width="100%"
+                    height="400"
+                    src="https://www.youtube.com/embed/HWS5uiob80k"
+                    title="Mark O'Keeffe - Portrait Artist"
+                    frameBorder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowFullScreen
+                  ></iframe>
+                </div>
               </div>
 
               {/* Right Column - Images */}
@@ -84,16 +97,12 @@ export default function AboutPage() {
                     height={400}
                     className="sidebar-image"
                   />
-                  <div className="sidebar-label">
-                    <span className="line"></span>
-                    <span className="label-text">Presentations</span>
-                    <span className="line"></span>
-                  </div>
+             
                 </div>
 
                 <div className="sidebar-image-wrapper sidebar-image-wrapper-2">
                   <Image
-                    src="/about/mark_drawing.jpg"
+                    src="/presentations/alex_ferguson.jpg"
                     alt="Mark drawing"
                     width={300}
                     height={400}

@@ -219,6 +219,19 @@
   color: #000;
 }
 
+/* YouTube Video */
+.video-container {
+  margin-top: 30px;
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.video-container iframe {
+  border-radius: 2px;
+  display: block;
+}
+
 .galleries-image {
   overflow: hidden;
   border-radius: 2px;
@@ -337,6 +350,14 @@
     font-size: 14px;
   }
 
+  .video-container {
+    margin-top: 20px;
+  }
+
+  .video-container iframe {
+    height: 300px !important;
+  }
+
   .testimonials-section {
     padding: 60px 20px;
   }
@@ -381,6 +402,14 @@
 
   .galleries-text p {
     font-size: 13px;
+  }
+
+  .video-container {
+    margin-top: 15px;
+  }
+
+  .video-container iframe {
+    height: 200px !important;
   }
 
   .testimonials-section {
