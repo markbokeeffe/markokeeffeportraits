@@ -7,7 +7,7 @@ const navLinks: NavLink[] = [
   { label: 'Portraits', href: '/portraits' },
   { label: 'Presentations', href: '/presentations' },
   { label: 'Recognition', href: '#recognition' },
-  { label: 'About', href: '#about' },
+  { label: 'About', href: '/about' },
   { label: 'Commissions', href: '#commissions' },
   { label: 'Contact', href: '#contact' },
 ];

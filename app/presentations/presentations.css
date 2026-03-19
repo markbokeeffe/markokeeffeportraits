@@ -40,11 +40,11 @@
   margin: 0;
 }
 
-/* ===== MASONRY GRID - CSS COLUMNS ===== */
+/* ===== MASONRY GRID - CSS COLUMNS (4 COLUMNS) ===== */
 .presentations-masonry {
-  column-count: 3;
+  column-count: 4;
   column-gap: 20px;
-  column-fill: auto;
+  column-fill: balance;
 }
 
 .presentation-item {
@@ -54,6 +54,8 @@
   overflow: hidden;
   background: #f5f5f5;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: inline-block;
+  width: 100%;
 }
 
 .presentation-item:hover {
@@ -194,7 +196,18 @@
 }
 
 /* ===== RESPONSIVE ===== */
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
+  .presentations-masonry {
+    column-count: 3;
+    column-gap: 16px;
+  }
+
+  .presentation-item {
+    margin-bottom: 16px;
+  }
+}
+
+@media (max-width: 1024px) {
   .presentations-masonry {
     column-count: 2;
     column-gap: 16px;
@@ -228,8 +241,12 @@
   }
 
   .presentations-masonry {
-    column-count: 1;
-    column-gap: 0;
+    column-count: 2;
+    column-gap: 12px;
+  }
+
+  .presentation-item {
+    margin-bottom: 12px;
   }
 
   .modal-nav-button {
@@ -264,6 +281,15 @@
 
   .intro-description {
     font-size: 12px;
+  }
+
+  .presentations-masonry {
+    column-count: 1;
+    column-gap: 0;
+  }
+
+  .presentation-item {
+    margin-bottom: 12px;
   }
 
   .modal-image-wrapper {
