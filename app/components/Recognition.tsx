@@ -1,5 +1,5 @@
 import Image from "next/image";
-import './Recognition.css';
+import './recognition.css';
 
 const letterImages = [
 //   {
