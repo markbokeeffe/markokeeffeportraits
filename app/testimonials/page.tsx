@@ -20,7 +20,7 @@ const ThankYouLetters = () => {
     },
   ];
 
-  const toggleDetails = (index) => {
+  const toggleDetails = (index: any) => {
     setExpandedIndex(expandedIndex === index ? null : index);
   };
 
