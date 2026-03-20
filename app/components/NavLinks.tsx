@@ -8,8 +8,7 @@ const navLinks: NavLink[] = [
   { label: 'Presentations', href: '/presentations' },
   { label: 'Letters', href: '/letters' },
   { label: 'About', href: '/about' },
-  { label: 'Commissions', href: '#commissions' },
-  { label: 'Contact', href: '#contact' },
+  { label: 'Commissions', href: '/commissions' },
 ];
 
 export default function NavLinks() {
