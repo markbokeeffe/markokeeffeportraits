@@ -1,0 +1,228 @@
+/* ===== DESKTOP GALLERY ===== */
+.portrait-masonry-desktop {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-top: 60px;
+  padding: 0 20px;
+}
+
+.portrait-masonry-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Frame styling */
+.portrait-frame {
+  background: #000;
+  padding: 12px;
+  box-shadow: 
+    0 10px 40px rgba(0, 0, 0, 0.2),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.portrait-masonry-item:hover .portrait-frame {
+  transform: translateY(-8px);
+  box-shadow: 
+    0 20px 60px rgba(0, 0, 0, 0.3),
+    inset 0 0 0 1px rgba(255, 255, 255, 0.15);
+}
+
+/* Mount/mat board */
+.portrait-mount {
+  background: #f5f5f5;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  aspect-ratio: 3 / 4;
+  overflow: hidden;
+}
+
+.portrait-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+}
+
+/* ===== MOBILE GALLERY ===== */
+.portrait-masonry-mobile {
+  display: none;
+}
+
+.mobile-gallery-container {
+  position: relative;
+  margin-top: 40px;
+}
+
+.mobile-gallery-scroll {
+  display: flex;
+  gap: 16px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  padding: 0 40px 20px 40px;
+  margin: 0 -40px;
+  padding-right: calc(40px + env(safe-area-inset-right));
+  scroll-snap-type: x mandatory;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Hide scrollbar */
+.mobile-gallery-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.portrait-mobile-item {
+  flex: 0 0 calc(70vw - 20px);
+  min-width: 0;
+  scroll-snap-align: start;
+}
+
+.portrait-mobile-item .portrait-frame {
+  height: 100%;
+}
+
+/* Scroll Controls */
+.mobile-gallery-controls {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  transform: translateY(-50%);
+  display: flex;
+  justify-content: space-between;
+  padding: 0 8px;
+  pointer-events: none;
+  z-index: 10;
+}
+
+.scroll-button {
+  pointer-events: all;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  border: none;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.scroll-button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+}
+
+.scroll-button:active {
+  transform: scale(0.95);
+}
+
+/* View Gallery Button */
+.mobile-gallery-footer {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.view-gallery-button {
+  display: inline-block;
+  padding: 12px 40px;
+  background: #000;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 4px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.view-gallery-button:hover {
+  background-color: #333;
+  transform: translateY(-2px);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1200px) {
+  .portrait-masonry-desktop {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portrait-masonry-desktop {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+    padding: 0 10px;
+  }
+
+  .portrait-frame {
+    padding: 8px;
+  }
+
+  .portrait-mount {
+    padding: 15px;
+  }
+}
+
+/* Mobile breakpoint - switch to swipe gallery */
+@media (max-width: 640px) {
+  .portrait-masonry-desktop {
+    display: none;
+  }
+
+  .portrait-masonry-mobile {
+    display: block;
+  }
+
+  .mobile-gallery-scroll {
+    gap: 12px;
+    padding: 0 30px 20px 30px;
+    margin: 0 -30px;
+  }
+
+  .portrait-mobile-item {
+    flex: 0 0 calc(80vw - 15px);
+  }
+
+  .mobile-gallery-controls {
+    padding: 0 4px;
+  }
+
+  .scroll-button {
+    width: 36px;
+    height: 36px;
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  .mobile-gallery-scroll {
+    gap: 10px;
+    padding: 0 20px 15px 20px;
+    margin: 0 -20px;
+  }
+
+  .portrait-mobile-item {
+    flex: 0 0 calc(85vw - 12px);
+  }
+
+  .scroll-button {
+    width: 32px;
+    height: 32px;
+    font-size: 18px;
+  }
+
+  .view-gallery-button {
+    padding: 10px 30px;
+    font-size: 12px;
+  }
+}

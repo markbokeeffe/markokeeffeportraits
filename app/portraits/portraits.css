@@ -1,0 +1,226 @@
+.portraits-page {
+  min-height: calc(100vh - 200px);
+  padding: 80px 20px;
+  background: #fefdfb;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.portraits-title {
+  text-align: center;
+  font-size: 48px;
+  font-weight: 700;
+  color: #333;
+  margin: 0 0 80px 0;
+  letter-spacing: 3px;
+  font-family: 'Georgia', serif;
+}
+
+/* ===== MASONRY GRID ===== */
+.portraits-masonry {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  margin-bottom: 60px;
+}
+
+.portrait-grid-item {
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.portrait-grid-item:hover {
+  transform: translateY(-8px);
+}
+
+.portrait-image-wrapper {
+  overflow: hidden;
+  background: #f5f5f5;
+  aspect-ratio: 3 / 4;
+  margin-bottom: 16px;
+}
+
+.portrait-grid-image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.3s ease;
+}
+
+.portrait-grid-item:hover .portrait-grid-image {
+  transform: scale(1.02);
+}
+
+.portrait-name {
+  font-size: 14px;
+  color: #333;
+  margin: 0;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  letter-spacing: 0.5px;
+}
+
+/* ===== MODAL ===== */
+.modal-backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.85);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+  padding: 20px;
+  animation: fadeIn 0.3s ease;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.modal-content {
+  position: relative;
+  max-width: 90vw;
+  max-height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  animation: slideUp 0.3s ease;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(40px);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.modal-image-wrapper {
+  max-width: 100%;
+  max-height: 75vh;
+  overflow: hidden;
+  margin-bottom: 24px;
+}
+
+.modal-image {
+  width: 100%;
+  height: auto;
+  max-height: 75vh;
+  object-fit: contain;
+  display: block;
+}
+
+.modal-caption {
+  font-size: 18px;
+  color: #fff;
+  margin: 0;
+  text-align: center;
+  font-family: 'Georgia', serif;
+  letter-spacing: 1px;
+}
+
+.modal-close {
+  position: absolute;
+  top: -40px;
+  right: 0;
+  background: none;
+  border: none;
+  color: #fff;
+  font-size: 40px;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform 0.2s ease;
+  padding: 0;
+}
+
+.modal-close:hover {
+  transform: scale(1.2);
+}
+
+/* ===== RESPONSIVE ===== */
+@media (max-width: 1200px) {
+  .portraits-masonry {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+  }
+
+  .portraits-title {
+    font-size: 36px;
+    margin-bottom: 60px;
+  }
+}
+
+@media (max-width: 768px) {
+  .portraits-page {
+    padding: 60px 20px;
+  }
+
+  .portraits-masonry {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .portraits-title {
+    font-size: 28px;
+    margin-bottom: 40px;
+  }
+
+  .portrait-name {
+    font-size: 12px;
+  }
+
+  .modal-close {
+    top: -35px;
+    font-size: 32px;
+  }
+}
+
+@media (max-width: 480px) {
+  .portraits-page {
+    padding: 40px 15px;
+  }
+
+  .portraits-masonry {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .portraits-title {
+    font-size: 24px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+  }
+
+  .portrait-name {
+    font-size: 11px;
+  }
+
+  .modal-caption {
+    font-size: 14px;
+  }
+
+  .modal-close {
+    top: -30px;
+    font-size: 28px;
+  }
+}
