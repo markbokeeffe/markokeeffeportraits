@@ -17,7 +17,7 @@ export default function ArtistStatement() {
               Each portrait is a study in presence—an attempt to capture not only likeness, but something of the individual behind it.
             </p>
             <p className="artist-signature">Mark O'Keeffe</p>
-            <a href="#commissions" className="commission-button">
+            <a href="/commissions" className="commission-button">
               ENQUIRE ABOUT A COMMISSION
             </a>
           </div>

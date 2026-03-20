@@ -46,7 +46,7 @@ export default function AboutPage() {
                 <p className="about-intro">
                   Mark achieved his first success in this area in 2000, when the then Taoiseach, Bertie Ahern, presented one of his portraits to the then U.S. President, Bill Clinton. Subsequently, Bertie Ahern went on to present Mark's work to several more figures, including Pope Benedict XVI and Tony Blair.
                 </p>
-                <p className="about-intro">In 2002, his work was presented by the then Lord Mayor of Dublin, Michael Mulcahy, to the former President of the Soviet Union, Mikhail Gorbachev. His work has also been received by many other notables, including Noam Chomsky, Desmond Tutu and Al Gore.</p>
+                <p className="about-intro">In 2002, his work was presented by the then Lord Mayor of Dublin, Michael Mulcahy, to the former President of the Soviet Union, Mikhail Gorbachev. His work has also been received by many other notables, including George Bizos, Desmond Tutu and Al Gore.</p>
 
                 {/* Images Grid */}
                 <div className="about-images-grid">

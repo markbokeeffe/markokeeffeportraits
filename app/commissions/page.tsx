@@ -32,7 +32,7 @@ export default function CommissionsPage() {
               </div>
 
               <p className="commissions-description">
-                Reach out to discuss a unique, hand-drawn portrait for a special occasion, a book illustration, an album cover, or bespoke artwork of any kind.
+                Reach out to discuss a unique, hand-drawn pencil portrait for a special occasion, a book illustration, an album cover.
               </p>
 
               <a href="mailto:mark.okeeffe@gmail.com" className="contact-button">Contact Mark at mark.okeeffe@gmail.com</a>

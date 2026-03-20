@@ -91,8 +91,7 @@ export default function LettersPage() {
           <h1 className="letters-title">Letters</h1>
           
           <div className="letters-intro">
-            <p className="intro-text">A selection of some letters received from public figures,</p>
-            <p className="intro-text">presented as a gallery wall.</p>
+            <p className="intro-text">A selection of some letters received from public figures by Mark, in appreciation of his work.</p>
           </div>
 
           {/* Gallery Wall Grid */}

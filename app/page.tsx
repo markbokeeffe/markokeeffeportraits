@@ -18,9 +18,9 @@ export default function Page() {
         {/* <Hero /> */}
         <PortraitMasonry />
         <Testimonial
-          quote="An extraordinary likeness—deeply human and beautifully observed."
-          emphasis="deeply human and beautifully observed"
-          author="MICHAEL D. HIGGINS"
+          quote="It is an excellent likeness - "
+          emphasis="much better than most of the professional pictures that constantly reach me."
+          author="EDMUND HILLARY"
         />
         <Recognition />
         <ArtistStatement />

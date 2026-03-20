@@ -41,11 +41,11 @@ const recognitionImages = [
 
 const testimonials = [
   {
-    quote: "A remarkable talent who's given a new dimension to the art of portraiture.",
-    author: "BILL CLINTON",
+    quote: "I greatly appreciate your gift - in both senses of that word.",
+    author: "SEAMUS HEANEY",
   },
   {
-    quote: "Absolutely wonderful. You've deeply captured his essence.",
+    quote: "It is an amazing likeness - almost better than the \"original\"!",
     author: "DESMOND TUTU",
   },
 ];
@@ -57,12 +57,7 @@ export default function Recognition() {
         <div className="recognition-header">
           <h2>Recognition</h2>
           <p className="recognition-subtitle">
-            Portraits presented in civic, cultural and <strong>public contexts.</strong>
-          </p>
-          <p className="recognition-description">
-            Alongside studio practice, O&apos;Keeffe&apos;s portraits have been
-            presented to notable public figures and shown in formal settings, giving
-            the work a commemorative and ceremonial dimension.
+            In addition to being featured across a range of galleries, Mark's work has been received a large number of notable individuals, such as taoisigh, U.S. Presidents and Popes.<strong></strong>
           </p>
         </div>
 

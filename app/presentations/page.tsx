@@ -107,10 +107,7 @@ export default function PresentationsPage() {
           <h1 className="presentations-title">Presentations</h1>
           
           <div className="presentations-intro">
-            <p className="intro-text">Portraits presented in public, civic and cultural settings.</p>
-            <p className="intro-description">
-              A selection of presentation photographs documenting portraits gifted and shared with notable public figures in formal and ceremonial contexts.
-            </p>
+            <p className="intro-text">              A selection of presentation photographs documenting portraits gifted and shared with notable public figures.</p>
           </div>
 
           {/* Masonry Grid */}
