@@ -56,8 +56,8 @@ export default function CommissionsPage() {
                 <div className="stacked-image image-2">
                   <div className="frame">
                     <Image
-                      src="/portraits/jack_charlton.jpg"
-                      alt="Jack Charlton"
+                      src="/portraits/garret_fitzgerald.jpg"
+                      alt="Garret Fitzgerald"
                       width={350}
                       height={280}
                       className="commission-image"
