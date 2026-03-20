@@ -69,9 +69,6 @@ export default function AboutPage() {
                     />
                   </div>
                 </div>
-                <p className="about-intro">Mark has participated in several exhibitions, including a solo one in Malahide Library in 2012. In 2013, he had the honour to be invited to Áras an Uachtaráin in Dublin, where he was privileged to present his work to the President of Ireland, Michael D. Higgins.</p>
-                <p className="about-intro">His work has appeared in journals and other publications as far away as the Netherlands and New Zealand. In 2013, he provided the illustrations for "The GAA & Radio Éireann: 1926 - 2010" by Pat Guthrie.</p>
-                <p className="about-intro">Mark's portraits have been featured in several other galleries and establishments in Dublin, including the Duke Street Gallery, Apollo Gallery, the Nora Dunne Gallery, Grogan's Pub and the View Gallery.</p>
 
                 {/* YouTube Video */}
                 <div className="video-container">
@@ -100,15 +97,6 @@ export default function AboutPage() {
              
                 </div>
 
-                <div className="sidebar-image-wrapper sidebar-image-wrapper-2">
-                  <Image
-                    src="/presentations/alex_ferguson.jpg"
-                    alt="Mark drawing"
-                    width={300}
-                    height={400}
-                    className="sidebar-image"
-                  />
-                </div>
               </div>
             </div>
           </div>
@@ -121,12 +109,9 @@ export default function AboutPage() {
               {/* Left Column - Text */}
               <div className="galleries-text">
                 <h2 className="galleries-title">Galleries & Publications</h2>
-                <p>
-                  Mark has participated in a solo and group exhibitions at The Duke Street Gallery, Apollo Gallery, the Nora Dunne Gallery, Grogan's Pub, and The View Gallery.
-                </p>
-                <p>
-                  Mark's portraits of Éamon de Valera are featured in several publications at Áras an Uachtarán to present his work to he President of Ireland, <strong>Michael D. Higgins</strong> in 2013.
-                </p>
+                <p className="about-intro">Mark has participated in several exhibitions, including a solo one in Malahide Library in 2012. He has taken part in group exhibitions in The Duke Street Gallery, Apollo Gallery, the Nora Dunne Gallery, Grogan's Pub, and The View Gallery.</p>
+                <p className="about-intro">Both in 2013 and 2025, he had the honour to be invited to Áras an Uachtaráin in Dublin, where he was privileged to present his work to the President of Ireland, Michael D. Higgins.</p>
+                <p className="about-intro">His work has appeared in journals and other publications as far away as the Netherlands and New Zealand. In 2013, he provided the illustrations for "The GAA & Radio Éireann: 1926 - 2010" by Pat Guthrie.</p>
               </div>
 
               {/* Right Column - Image */}
