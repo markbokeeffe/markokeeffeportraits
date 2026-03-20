@@ -1,1 +1,16 @@
-import React from 'react';\n\nconst Navigation = () => {\n  return (\n    <nav>\n      <ul>\n        <li><a href="/">Home</a></li>\n        <li><a href="/about">About</a></li>\n        <li><a href="/portfolio">Portfolio</a></li>\n        <li><a href="/contact">Contact</a></li>\n      </ul>\n    </nav>\n  );\n};\n\nexport default Navigation;
+import React from 'react';
+
+const Navigation = () => {
+  return (
+	<nav>
+	  <ul>
+		<li><a href="/">Home</a></li>
+		<li><a href="/about">About</a></li>
+		<li><a href="/portfolio">Portfolio</a></li>
+		<li><a href="/contact">Contact</a></li>
+	  </ul>
+	</nav>
+  );
+};
+
+export default Navigation;
