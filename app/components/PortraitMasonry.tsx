@@ -143,7 +143,7 @@ export default function PortraitMasonry() {
 
           {/* View Full Gallery Button */}
           <div className="mobile-gallery-footer">
-            <a href="#full-gallery" className="view-gallery-button">
+            <a href="/portraits" className="view-gallery-button">
               View Full Gallery
             </a>
           </div>
