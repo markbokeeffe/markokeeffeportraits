@@ -32,7 +32,7 @@ const presentationData: Presentation[] = [
   { filename: 'jp_mcmanus.jpg', name: 'JP McManus', width: 1000, height: 667 },
   { filename: 'luan_parle.jpg', name: 'Luan Parle', width: 1000, height: 667 },
   { filename: 'luan_parle_home.jpg', name: 'Luan Parle', width: 1000, height: 667 },
-  { filename: 'mary_mcaleese.jpg', name: 'Mary McAleese', width: 1000, height: 667 },
+  { filename: 'mary_mcaleese.JPG', name: 'Mary McAleese', width: 1000, height: 667 },
   { filename: 'michael_d_higgins_2013.jpg', name: 'Michael D. Higgins', width: 1000, height: 667 },
   { filename: 'michael_d_higgins_2025.jpg', name: 'Michael D. Higgins', width: 1000, height: 667 },
   { filename: 'micheal_o_muircheartaigh.jpg', name: 'Micheal Ó Muircheartaigh', width: 1000, height: 667 },
