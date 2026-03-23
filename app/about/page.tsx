@@ -134,13 +134,13 @@ export default function AboutPage() {
             <div className="testimonials-grid">
               <div className="testimonial-card">
                 <p className="testimonial-text">
-                  "indeed a vy fine representation of the character of my late father"
+                  "It is indeed a vey fine representation of the character of my late father"
                 </p>
                 <p className="testimonial-author">— Family Member</p>
               </div>
               <div className="testimonial-card">
                 <p className="testimonial-text">
-                  "it is an excellent likeness - much better than most of the photographs"
+                  "It is an excellent likeness - much better than most of the photographs"
                 </p>
                 <p className="testimonial-author">— Satisfied Client</p>
               </div>
