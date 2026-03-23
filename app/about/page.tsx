@@ -136,13 +136,13 @@ export default function AboutPage() {
                 <p className="testimonial-text">
                   "It is indeed a vey fine representation of the character of my late father"
                 </p>
-                <p className="testimonial-author">— Family Member</p>
+                <p className="testimonial-author">— Terry de Valera</p>
               </div>
               <div className="testimonial-card">
                 <p className="testimonial-text">
-                  "It is an excellent likeness - much better than most of the photographs"
+                  "I could not believe how outstanding a portrait it was and how accurate a portrayal of myself that it is."
                 </p>
-                <p className="testimonial-author">— Satisfied Client</p>
+                <p className="testimonial-author">— John Hume</p>
               </div>
             </div>
           </div>
