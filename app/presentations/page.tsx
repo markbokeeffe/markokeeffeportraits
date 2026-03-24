@@ -44,6 +44,8 @@ const presentationData: Presentation[] = [
   { filename: 'smiley_bolger.jpg', name: 'Smiley Bolger', width: 1000, height: 667 },
   { filename: 'smiley_bolger_vicar_st.jpg', name: 'Smiley Bolger', width: 1000, height: 667 },
   { filename: 'tk_whitaker.jpg', name: 'T.K. Whitaker', width: 1000, height: 667 },
+  { filename: 'bill_oherlihy.jpg', name: "Bill O'Herlihy", width: 1000, height: 667 },
+  { filename: 'henry_kissinger.jpg', name: 'Henry Kissinger', width: 1000, height: 667 },
 ];
 
 export default function PresentationsPage() {
