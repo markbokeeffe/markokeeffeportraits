@@ -1,5 +1,6 @@
 import "./globals.css";
 import type { Metadata } from "next";
+import AnalyticsListener from "./components/AnalyticsListener";
 
 export const metadata: Metadata = {
   title: "Mark O'Keeffe Portraits",
@@ -13,7 +14,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body>{children}</body>
+      <body>
+        {children}
+        {/* Google Analytics */}
+        <AnalyticsListener />
+      </body>
     </html>
   );
 }
