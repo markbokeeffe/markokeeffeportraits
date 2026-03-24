@@ -39,7 +39,7 @@ const presentationData: Presentation[] = [
   { filename: 'noam_chomsky.jpg', name: 'Linguist, Noam Chomsky, UCD, January 2006', width: 1000, height: 667 },
   { filename: 'norman_wisdom.jpg', name: 'Actor & Comedian, Norman Wisdom, Terenue, July 2004', width: 1000, height: 667 },
   { filename: 'pope_benedict.jpg', name: 'Presentation by Taoiseach Bertie Ahern to Pope Benedict XVI, Vatican, July 2005', width: 1000, height: 667 },
-  { filename: 'robert_ballagh.jpg', name: 'Robert Ballagh, Irish Film Institute, August 2006', width: 1000, height: 667 },
+  { filename: 'robert_ballagh.jpg', name: 'Artist Robert Ballagh, Irish Film Institute, August 2006', width: 1000, height: 667 },
   { filename: 'robert_ballagh_studio.jpg', name: 'Artist Robert Ballagh working in his studio with portrait of Alfred Hitchcock on his desk, 2007.  Photo courtesy of Irish Times', width: 1000, height: 667 },
   { filename: 'smiley_bolger.jpg', name: 'Journalist & Promoter Smiley Bolger, Dublin, January 2011', width: 1000, height: 667 },
   { filename: 'smiley_bolger_vicar_st.jpg', name: 'Journalist &amp; Promoter Smiley Bolger with portrait of Phil Lynott, Vicar Street, January 2011', width: 1000, height: 667 },
