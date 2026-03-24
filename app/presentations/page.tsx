@@ -42,7 +42,7 @@ const presentationData: Presentation[] = [
   { filename: 'robert_ballagh.jpg', name: 'Artist Robert Ballagh, Irish Film Institute, August 2006', width: 1000, height: 667 },
   { filename: 'robert_ballagh_studio.jpg', name: 'Artist Robert Ballagh working in his studio with portrait of Alfred Hitchcock on his desk, 2007.  Photo courtesy of Irish Times', width: 1000, height: 667 },
   { filename: 'smiley_bolger.jpg', name: 'Journalist & Promoter Smiley Bolger, Dublin, January 2011', width: 1000, height: 667 },
-  { filename: 'smiley_bolger_vicar_st.jpg', name: 'Journalist &amp; Promoter Smiley Bolger with portrait of Phil Lynott, Vicar Street, January 2011', width: 1000, height: 667 },
+  { filename: 'smiley_bolger_vicar_st.jpg', name: 'Journalist & Promoter Smiley Bolger with portrait of Phil Lynott, Vicar Street, January 2011', width: 1000, height: 667 },
   { filename: 'tk_whitaker.jpg', name: 'Former Governor of the Central Bank of Ireland, T.K. Whitaker, UCD, February 2005', width: 1000, height: 667 },
   { filename: 'bill_oherlihy.jpg', name: "Presentation to boradcaster Bill O'Herlihy by RTE on the night of his retirement, July 2014", width: 1000, height: 667 },
   { filename: 'henry_kissinger.jpg', name: 'Former U.S. Secretary of State, Henry Kissinger, Yorba Linda, California, July 2001', width: 1000, height: 667 },
